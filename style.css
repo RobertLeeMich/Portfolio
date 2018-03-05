@@ -1,0 +1,150 @@
+.container{
+    position: absolute;
+}
+
+/* The navigation bar */
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+
+}
+
+/* Links inside the navbar */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.container{
+    margin-top: 3.4em;
+    text-align:center;
+}
+
+#div1{
+  background-color: purple;
+text-align: left;
+height: 25em;
+position: relative;
+}
+
+#p1{
+  position: relative;
+  text-align: center;
+  top: 0.5em;
+  width: 75%;
+  font-size: 2em;
+  color: white;
+  font-family: Acme, sans-serif;
+}
+
+.bar{
+  border: 3px gray solid;
+  width: 65%;
+  position: relative;
+  top: 1em;
+  left: 3.5em;
+}
+
+.p2{
+  font-size: 1.5em;
+  position: relative;
+  top: -2em;
+  left: 3.5em;
+  color:white;
+}
+
+#lt1{
+  font-size: 2.9em;
+  position: relative;
+  margin-left: 13.5em;
+  top: -0.5em;
+  color:white;
+  font-family: Acme, sans-serif;
+}
+
+.pic1{
+  display:inline-block;
+  float:right;
+  position:relative;
+  top: -21em;
+  left: 0.5em;;
+  width:25%;
+  height:25%;
+  border-radius: 50%;
+}
+
+#div2{
+background:rgba(122, 119, 119, 0.712);
+height: 65em;
+text-align: center;
+}
+
+.pic2{
+  position: relative;
+  width: 35%;
+  margin-right: 5em;
+}
+
+.p4{
+  font-size: 3em;
+}
+
+.bar2{
+position: relative;
+border: 2px rgb(255, 255, 255) solid;
+width: 25%;
+left: 10.5em;
+top: 0.4em;
+}
+
+.bar3{
+  position: relative;
+  border: 2px rgb(255, 255, 255) solid;
+  width: 25%;
+  right: 11.7em;
+  float:right;
+  top:0.1em;
+}
+
+#lt2{
+position: relative;
+left: 2em;
+top: -0.7em;
+font-size: 3em;
+font-family: Acme, sans-serif;
+}
+
+.pic3{
+  width: 35%;
+  height: 35%;
+  
+}
+
+.pic4{
+  position: relative;
+  width: 35%;
+  height: 35%;
+  margin-top: 5em;
+ margin-right: 5em;
+}
+
+.pic5{
+  width: 35%;
+  height: 35%;
+  margin-top: 6em;
+}
+#div3{
+border: 1px black solid;
+}
