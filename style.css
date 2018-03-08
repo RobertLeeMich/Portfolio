@@ -28,25 +28,27 @@ navbar a:hover {
 }
 
 .container{
-    margin-top: 3.4em;
-    text-align:center;
+margin-top: 3.4em;
 }
 
 #div1{
-  background-color: purple;
-text-align: left;
+background-color: purple;
+text-align: center;
 height: 25em;
 position: relative;
 }
 
 #p1{
   position: relative;
-  text-align: center;
   top: 0.5em;
   width: 75%;
   font-size: 2em;
   color: white;
   font-family: Acme, sans-serif;
+}
+
+.introdiv{
+  text-align:center;
 }
 
 .bar{
@@ -61,14 +63,15 @@ position: relative;
   font-size: 1.5em;
   position: relative;
   top: -2em;
-  left: 3.5em;
+  right: 4em;
   color:white;
+
 }
 
 #lt1{
   font-size: 2.9em;
   position: relative;
-  margin-left: 13.5em;
+  margin-left: 9.3em;
   top: -0.5em;
   color:white;
   font-family: Acme, sans-serif;
@@ -89,6 +92,8 @@ position: relative;
 background:rgba(122, 119, 119, 0.712);
 height: 65em;
 text-align: center;
+position:relative;
+top:-1.5em;
 }
 
 .pic2{
@@ -129,7 +134,7 @@ font-family: Acme, sans-serif;
 .pic3{
   width: 35%;
   height: 35%;
-  
+
 }
 
 .pic4{
@@ -146,5 +151,205 @@ font-family: Acme, sans-serif;
   margin-top: 6em;
 }
 #div3{
-border: 1px black solid;
+background-color: purple;
+position:relative;
+top:-1.5em;
+}
+
+.formdiv{
+  float:left;
+  position: relative;
+  top: -25em;
+  height: 1em;
+}
+
+.p6{
+  text-align:center;
+  color: white;
+}
+
+.bar5{
+  border: 3px gray solid;
+  width: 65%;
+  position: relative;
+  top: 1em;
+  left: 10em;
+}
+
+#lt3{
+  font-size: 2.9em;
+  position: relative;
+  margin-left: 2.2em;
+  top: -0.5em;
+  color:white;
+  font-family: Acme, sans-serif;
+}
+
+#lt4{
+  font-size: 2.9em;
+  position: relative;
+  margin-left: 15.5em;
+  top: -2.2em;
+  color:white;
+  font-family: Acme, sans-serif;
+}
+
+.contacttextdiv{
+  width: 10em;
+  position: relative;
+  left: 21em;
+  top: -3em;
+  font-size:  1.7em;
+  color: lightgray;
+  font-family: Acme, sans-serif;
+}
+
+input, textarea {
+padding: 9px;
+border: solid 1px #E5E5E5;
+outline: 0;
+font: normal 13px/100% Verdana, Tahoma, sans-serif;
+width: 200px;
+background: #FFFFFF;
+}
+
+textarea
+{
+width: 400px;
+max-width: 400px;
+height: 150px;
+line-height: 150%;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+border-color: #C9C9C9;
+}
+
+.form label {
+margin-left: 10px;
+color: #cecdcd;
+}
+
+.submit input {
+width: auto;
+padding: 9px 15px;
+background: #617798;
+border: 0;
+font-size: 14px;
+color: #FFFFFF;
+}
+
+input, textarea {
+box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+}
+
+input, textarea {
+background: -webkit-gradient(linear, left top, left 25, from(#EEEEEE), to(#FFFFFF));
+background: -moz-linear-gradient(top, #EEEEEE), #FFFFFF 25px);
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+}
+
+.submit input {
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+#bottombar1{
+  border: 1px black solid;
+  height: 20em;
+  position: absolute;
+  left:0;
+  right:0;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 55%;
+    position:relative;
+    left:
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa::before{
+  position:relative;
+  right: .5em;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    position: relative;
+    left: 60em;
+    top: 10em;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    position: relative;
+    left: 1em;
+    left: 60em;
+    top: 10em;
+}
+
+.fa-github{
+  background: #fc0000;
+  color:white;
+  position:relative;
+  left: 60em;
+  top: 10em;
+}
+
+.fas fa-archive{
+  font-family:
+}
+
+.sharelinks{
+  position:relative;
+  top:  -5em;
+  left: 5em;
+}
+
+#lowerdiv1{
+  border: 1px black solid;
+  position: relative;
+  left: 10em;
+}
+
+.p7{
+  text-align: left;
+  font-size: 1.7em;
+  font-family: Acme, sans-serif;
+  position: relative;
+  top: 3em;
+  left: 3.5em;
+}
+
+.p8{
+text-align: right;
+position: relative;
+font-family: Acme, sans-serif;
+font-size: 1.7em;
+top: 3em;
+right: 3.5em;
 }
