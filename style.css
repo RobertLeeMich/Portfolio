@@ -280,7 +280,7 @@ input:focus, textarea:focus {
     color:white;
     position:absolute;
     left:0;
-    right: 0
+    right: 0;
 }
 
 /* Style all font awesome icons */
